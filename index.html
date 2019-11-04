@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="description" content="Physics paper title generator">
+	<meta name="keywords" content="Physics, Parody, Title generator, research paper">
+	<meta name="author" content="Devang Liya">
+	<title>Digital Physicist</title>
+	<style type="text/css">
+		.song{
+			font-family: Verdana, sans-serif;
+			vertical-align: middle;
+			text-align: center;
+		}
+	</style>
+</head>
+<body class="song">
+
+<div class="song">
+<h1 id="demo"></h1>
+<!--Our inspiration: Quantum behavior in macroscopic systems -->
+</div>
+
+<script type="text/javascript">
+	var PhysicsFields = ["Quantum", "Statistical", "Cosmological", "Thermal", "Classical", "Mathematical", "Topological", "Peculiar", "Gravitational", "Superconductive"];
+	var PhysicsField = PhysicsFields[Math.floor(Math.random()*PhysicsFields.length)];
+	var BioFields = ["behavior", "observations", "properties", "evolution"];
+	var BioField = BioFields[Math.floor(Math.random()*BioFields.length)];
+	var connectors = ["in", "of"];
+	var connector = connectors[Math.floor(Math.random()*connectors.length)];
+	var PartyMoods = ["isolated", "macroscopic", "microscopic", "mesocopic", "nano-scale", "entangled", "low-temperature", "high energy", "relativistic", "clumped"];
+	var PartyMood = PartyMoods[Math.floor(Math.random()*PartyMoods.length)];
+	var scifiObjects = ["proton", "W-bosons", "blackholes", "ERB", "exotic matter", "dark matter", "dark energy", "D-Brane", "P-Brane", "pulsars", "phonons"];
+	var scifiObject = scifiObjects[Math.floor(Math.random()*scifiObjects.length)];
+	document.getElementById("demo").innerHTML = PhysicsField + " " + BioField + " " + connector + " " + PartyMood + " " + scifiObject;
+</script>
+
+</body>
+</html>
